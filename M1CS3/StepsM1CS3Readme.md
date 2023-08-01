@@ -10,26 +10,34 @@
 $ mkdir LinuxM1C3
 
 
+
 $ cd LinuxM1C3
+
 
 
 $ whoami
 Nimbus
 
 
+
 $ ls
+
 
 
 $ touch README.md
 
 
+
 $ nano README.md
 
 
+
 $ nano README.md
+
 
 
 $ 
+
 
 
   GNU nano 7.1                                                                        README.md                                                                                 

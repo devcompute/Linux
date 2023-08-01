@@ -12,10 +12,13 @@ $ mkdir LinuxDev
 
 
 
+
 $ cd LinuxDev
 
 
+
 $ ls
+
 
 
 
@@ -23,7 +26,9 @@ $ ls -l
 
 
 
+
 total 0
+
 
 
 
@@ -34,8 +39,10 @@ drwxr-xr-x 18 Nimbus Nimbus 4096 Jan 26 19:01 ..
 
 
 
+
 $ pwd
 /home/N***/LinuxDev
+
 
 
 
@@ -56,6 +63,7 @@ Reading state information... Done
 
 
 
+
 $ sudo apt-get install git
 Reading package lists... Done
 Building dependency tree... Done
@@ -66,8 +74,10 @@ git set to manually installed.
 
 
 
+
 $ git --version
 git version 2.39.0
+
 
 
 
@@ -86,11 +96,14 @@ Initialized empty Git repository in /home/Nimbus/LinuxDev/.git/
 
 
 
+
 $ mkfifo mypipe
 
 
 
+
 $ exec 3<>mypipe
+
 
 
 
@@ -98,7 +111,9 @@ $ echo "Hello, John!" >&3
 
 
 
+
 $ exec 3<>mypipe
+
 
 
 
@@ -106,8 +121,10 @@ $ cat <&3
 Hello, John!
 
 
+
 exit
 ^C
+
 
 
 
@@ -115,11 +132,14 @@ $ touch README.md
 
 
 
+
 $ nano README.md
 
 
 
+
 $    
+
 
 
 
@@ -134,12 +154,15 @@ $
 
 
 
+
 - For IPC, Tom and Jane can use message queues, semaphores, and shared memory. The System V IPC commands of ipcs, ipcrm and msgctl can be used for creating and managing the me>
         Commands: create message = 'ipcmk -Q", remove message = "'ipcrm -Q <queue_id>'", view message status "'ipcs -q'"
+
 
   
 
 - For UDS, use the sockets. socket(), bind(), connect(), and accept() system calls from the socket library to cerate and manage the UDS. Also necessary libraries and functions>
+
 
 
 
@@ -148,9 +171,11 @@ $
          connect() system call for connecting remote machines.
          send() and recv() system calls for sending and receiving data.
 
+
   
 
 - Finally for git use:
+
 
 
 

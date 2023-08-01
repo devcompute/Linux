@@ -14,9 +14,21 @@
 
 
 $ mkdir SELinux
+
+
+
 $ cd SELinux
+
+
+
 $ touch LinuxSecREADME.md
+
+
+
 $ nano LinuxSecREADME.md
+
+
+
 $
 
 
@@ -29,31 +41,31 @@ $
 
 
 1. 
-- SELinux (Security-Enhanced Linux) is the security policy that gives advanced access controls for the Linux Systems. It is built on top of the Linux kernel and is flexible, fine-grained security model to enforce security policies.
+- SELinux (Security-Enhanced Linux) is the security policy that gives advanced access controls for Linux Systems. It is built on top of the Linux kernel and is a flexible, fine-grained security model to enforce security policies.
 
 
 2. 
 
-- For the basic architecture of SELinux, it is comprised of three components which are the kernel, the userspace libraries and utilities, and the policy.
+- For the basic architecture of SELinux, is comprised of three components which are the kernel, the userspace libraries and utilities, and the policy.
         - The kernel enforces security policy.
 
-        - The userspace libraries and utilities holds the interface for managing the policy.
+        - The userspace libraries and utilities hold the interface for managing the policy.
 
         - The policy is the set of rules that define what actions are allowed and denied.
 
 3. 
 
-- SELinux featues:
+- SELinux features:
 
         - Type enforcement = allows or denies access to the resources based on the type of subject (the process) and the type of object (the file).
 
-        - Role-based access controls (RBAC) - assigns roles to the subjects and and objects and manages the access on those roles.
+        - Role-based access controls (RBAC) - assigns roles to the subjects and objects and manages the access on those roles.
 
         - Multi-level security = allows for different levels of security to be assigned to various different resources.
 
-        - Policy language: allows for customes policies to be created and meet.
+        - Policy language: allows for custom policies to be created and met.
 
-        - Domain Type Enforcement (DTE): which allows for fine-grained control over access to resources by defining domains for processes and specifying allowed interactions between them.
+        - Domain Type Enforcement (DTE): this allows for fine-grained control over access to resources by defining domains for processes and specifying allowed interactions between them.
 
         - Boolean settings: which allows for the enabling or disabling of specific SELinux features at runtime.
 

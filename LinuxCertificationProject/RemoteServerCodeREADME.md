@@ -1,12 +1,26 @@
 Last login: Mon Jan 30 21:36:16 on ttys000
-benjaminadams@Benjamins-MBP ~ % ssh Nimbus@10.211.55.2
-Nimbus@10.211.55.2's password: 
+
+
+ ~ % ssh Nimbus@10.211.55.2
+Nimbus@10.211.55.2's password:
+
+
 Last login: Mon Jan 30 19:19:50 2023 from 10.211.55.1
+
+
 [Nimbus@RedHat ~]$ ls
 LinuxProject
+
+
 [Nimbus@RedHat ~]$ cd LinuxProject
+
+
 [Nimbus@RedHat LinuxProject]$ chmod +x sysinfo.sh
+
+
 [Nimbus@RedHat LinuxProject]$ ./sysinfo.sh
+
+
 CPU load: 
 0.10 0.03 0.01 1/185 1526
 Memory usage: 
@@ -29,10 +43,18 @@ Active logged in users:
 Nimbus   tty1         2023-01-30 18:26
 Nimbus   pts/0        2023-01-30 19:15 (10.211.55.2)
 Nimbus   pts/1        2023-01-30 19:24 (10.211.55.1)
+
+
 [Nimbus@RedHat LinuxProject]$ sudo nano /etc/hosts
 [sudo] password for Nimbus: 
 sudo: nano: command not found
+
+
 [Nimbus@RedHat LinuxProject]$ sudo nano /etc/hosts
 sudo: nano: command not found
+
+
 [Nimbus@RedHat LinuxProject]$ sudo vi /etc/hosts
+
+
 [Nimbus@RedHat LinuxProject]$ 
